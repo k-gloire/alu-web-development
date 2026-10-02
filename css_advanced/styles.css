@@ -182,3 +182,95 @@ main > section:nth-of-type(4) button {
   font-size: 11px;
   text-transform: uppercase;
 }
+
+/* Header */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 24px;
+  width: auto;
+}
+
+header > div:last-of-type a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 9px;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+/* Banner */
+main > section:first-of-type {
+  background: linear-gradient(to bottom, #6b6e75, #05142a);
+  color: #fff;
+  text-align: center;
+  padding: 130px 0 60px;
+}
+
+main > section:first-of-type h1 {
+  font-size: 64px;
+  margin: 0 0 10px;
+}
+
+main > section:first-of-type > div:first-of-type p {
+  font-size: 10px;
+  text-transform: uppercase;
+  word-spacing: 30px;
+  margin: 0 0 30px;
+}
+
+main > section:first-of-type button {
+  background-color: #c26cff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 9px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+main > section:first-of-type h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 110px 0 40px;
+}
+
+main > section:first-of-type > div:last-of-type > div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+main > section:first-of-type > div:last-of-type > div > div {
+  width: 140px;
+}
+
+main > section:first-of-type > div:last-of-type img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main > section:first-of-type h3 {
+  font-size: 11px;
+  margin: 10px 0 6px;
+}
+
+main > section:first-of-type > div:last-of-type p {
+  font-size: 9px;
+  margin: 0;
+  font-style: italic;
+}
